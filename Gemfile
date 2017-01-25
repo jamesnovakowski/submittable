@@ -13,6 +13,9 @@ gem 'jquery-rails'
 gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 gem 'paperclip', "~> 5.0.0"
+gem 'devise'
+gem 'bootstrap', '~> 4.0.0.alpha6'
+gem 'sprockets-rails', :require => 'sprockets/railtie'
 
 group :development, :test do
   gem 'byebug', platform: :mri

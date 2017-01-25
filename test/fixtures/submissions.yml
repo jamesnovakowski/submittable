@@ -1,0 +1,43 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  first_name: MyString
+  last_name: MyString
+  gender: 
+  city: MyString
+  state: MyString
+  age: 1
+  permission: false
+  permission_type: 1
+  submission_type: MyString
+  theme: MyString
+  title: MyString
+  p_name_minor: MyString
+  p_age_minor: 1
+  p_gender_of_minor: 
+  p_city: MyString
+  p_state: MyString
+  p_name_parent: MyString
+  p_permission: false
+  p_permission_type: 1
+
+two:
+  first_name: MyString
+  last_name: MyString
+  gender: 
+  city: MyString
+  state: MyString
+  age: 1
+  permission: false
+  permission_type: 1
+  submission_type: MyString
+  theme: MyString
+  title: MyString
+  p_name_minor: MyString
+  p_age_minor: 1
+  p_gender_of_minor: 
+  p_city: MyString
+  p_state: MyString
+  p_name_parent: MyString
+  p_permission: false
+  p_permission_type: 1

@@ -1,0 +1,112 @@
+<%= form_for(submission) do |f| %>
+  <% if submission.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(submission.errors.count, "error") %> prohibited this submission from being saved:</h2>
+
+      <ul>
+      <% submission.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :first_name %>
+    <%= f.text_field :first_name %>
+  </div>
+
+  <div class="field">
+    <%= f.label :last_name %>
+    <%= f.text_field :last_name %>
+  </div>
+
+  <div class="field">
+    <%= f.label :gender %>
+    <%= f.text_field :gender %>
+  </div>
+
+  <div class="field">
+    <%= f.label :city %>
+    <%= f.text_field :city %>
+  </div>
+
+  <div class="field">
+    <%= f.label :state %>
+    <%= f.text_field :state %>
+  </div>
+
+  <div class="field">
+    <%= f.label :age %>
+    <%= f.number_field :age %>
+  </div>
+
+  <div class="field">
+    <%= f.label :permission %>
+    <%= f.check_box :permission %>
+  </div>
+
+  <div class="field">
+    <%= f.label :permission_type %>
+    <%= f.number_field :permission_type %>
+  </div>
+
+  <div class="field">
+    <%= f.label :submission_type %>
+    <%= f.text_field :submission_type %>
+  </div>
+
+  <div class="field">
+    <%= f.label :theme %>
+    <%= f.text_field :theme %>
+  </div>
+
+  <div class="field">
+    <%= f.label :title %>
+    <%= f.text_field :title %>
+  </div>
+
+  <div class="field">
+    <%= f.label :p_name_minor %>
+    <%= f.text_field :p_name_minor %>
+  </div>
+
+  <div class="field">
+    <%= f.label :p_age_minor %>
+    <%= f.number_field :p_age_minor %>
+  </div>
+
+  <div class="field">
+    <%= f.label :p_gender_of_minor %>
+    <%= f.text_field :p_gender_of_minor %>
+  </div>
+
+  <div class="field">
+    <%= f.label :p_city %>
+    <%= f.text_field :p_city %>
+  </div>
+
+  <div class="field">
+    <%= f.label :p_state %>
+    <%= f.text_field :p_state %>
+  </div>
+
+  <div class="field">
+    <%= f.label :p_name_parent %>
+    <%= f.text_field :p_name_parent %>
+  </div>
+
+  <div class="field">
+    <%= f.label :p_permission %>
+    <%= f.check_box :p_permission %>
+  </div>
+
+  <div class="field">
+    <%= f.label :p_permission_type %>
+    <%= f.number_field :p_permission_type %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

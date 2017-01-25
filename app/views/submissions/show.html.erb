@@ -1,0 +1,99 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>First name:</strong>
+  <%= @submission.first_name %>
+</p>
+
+<p>
+  <strong>Last name:</strong>
+  <%= @submission.last_name %>
+</p>
+
+<p>
+  <strong>Gender:</strong>
+  <%= @submission.gender %>
+</p>
+
+<p>
+  <strong>City:</strong>
+  <%= @submission.city %>
+</p>
+
+<p>
+  <strong>State:</strong>
+  <%= @submission.state %>
+</p>
+
+<p>
+  <strong>Age:</strong>
+  <%= @submission.age %>
+</p>
+
+<p>
+  <strong>Permission:</strong>
+  <%= @submission.permission %>
+</p>
+
+<p>
+  <strong>Permission type:</strong>
+  <%= @submission.permission_type %>
+</p>
+
+<p>
+  <strong>Submission type:</strong>
+  <%= @submission.submission_type %>
+</p>
+
+<p>
+  <strong>Theme:</strong>
+  <%= @submission.theme %>
+</p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @submission.title %>
+</p>
+
+<p>
+  <strong>P name minor:</strong>
+  <%= @submission.p_name_minor %>
+</p>
+
+<p>
+  <strong>P age minor:</strong>
+  <%= @submission.p_age_minor %>
+</p>
+
+<p>
+  <strong>P gender of minor:</strong>
+  <%= @submission.p_gender_of_minor %>
+</p>
+
+<p>
+  <strong>P city:</strong>
+  <%= @submission.p_city %>
+</p>
+
+<p>
+  <strong>P state:</strong>
+  <%= @submission.p_state %>
+</p>
+
+<p>
+  <strong>P name parent:</strong>
+  <%= @submission.p_name_parent %>
+</p>
+
+<p>
+  <strong>P permission:</strong>
+  <%= @submission.p_permission %>
+</p>
+
+<p>
+  <strong>P permission type:</strong>
+  <%= @submission.p_permission_type %>
+</p>
+
+<%= link_to 'Edit', edit_submission_path(@submission) %> |
+<%= link_to 'Back', submissions_path %>

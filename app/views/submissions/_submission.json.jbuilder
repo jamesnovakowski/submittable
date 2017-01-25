@@ -1,0 +1,2 @@
+json.extract! submission, :id, :first_name, :last_name, :gender, :city, :state, :age, :permission, :permission_type, :submission_type, :theme, :title, :p_name_minor, :p_age_minor, :p_gender_of_minor, :p_city, :p_state, :p_name_parent, :p_permission, :p_permission_type, :created_at, :updated_at
+json.url submission_url(submission, format: :json)
